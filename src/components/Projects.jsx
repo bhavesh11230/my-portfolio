@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "Fuel Indeed",
       description: "Fuel booking system with real-time availability and admin control. Users can book fuel, view history. Admins can manage bookings and view analytics.",
-      image: "/ProfileImg/Fuel.jpg",
+      image: "./ProfileImg/Fuel.jpg",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       category: "Full Stack",
       github: "https://github.com/bhavesh11230/Fuel_Indeed-Fuel_Booking_Web_Application.git",
