@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "Fuel Indeed",
       description: "Fuel booking system with real-time availability and admin control. Users can book fuel, view history. Admins can manage bookings and view analytics.",
-      image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "src/ProfileImg/Fuel.jpg",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       category: "Full Stack",
       github: "https://github.com/bhavesh11230/Fuel_Indeed-Fuel_Booking_Web_Application.git",
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "QuickBank ",
       description: "Banking app with customer portal, fund transfers, and account management. Includes admin dashboard for user management and transaction history.",
-      image: "https://images.pexels.com/photos/3943722/pexels-photo-3943722.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "src/ProfileImg/Bank.webp",
       technologies: ["Java", "JDBC", "JSP", "Servlets", "MySQL"],
       category: "Full Stack",
       github: "https://github.com/bhavesh11230/Banking_Web_Application.git",
@@ -146,17 +146,17 @@ const Projects = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch"
         >
           {filteredProjects.map((project) => (
             <motion.div
               key={project.title}
               variants={itemVariants}
-              className={`relative group ${project.featured ? 'md:col-span-2 lg:col-span-1' : ''}`}
+              className="relative group h-full"
               whileHover={{ y: -5 }}
               transition={{ duration: 0.3 }}
             >
-              <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col h-[480px]">
+              <div className="bg-white dark:bg-gray-900 rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 flex flex-col h-full min-h-[480px]">
                 {/* Image */}
                 <div className="relative overflow-hidden">
                   <img
@@ -171,6 +171,8 @@ const Projects = () => {
                       className="p-2 bg-white/90 dark:bg-gray-800/90 rounded-full text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors"
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <FaGithub size={16} />
                     </motion.a>
@@ -179,6 +181,8 @@ const Projects = () => {
                       className="p-2 bg-white/90 dark:bg-gray-800/90 rounded-full text-gray-700 dark:text-gray-300 hover:text-blue-600 transition-colors"
                       whileHover={{ scale: 1.1 }}
                       whileTap={{ scale: 0.9 }}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <HiExternalLink size={16} />
                     </motion.a>
@@ -212,12 +216,14 @@ const Projects = () => {
                   </div>
 
                   {/* Action Buttons */}
-                  <div className="flex space-x-3">
+                  <div className="flex space-x-3 mt-auto">
                     <motion.a
                       href={project.github}
                       className="flex-1 flex items-center justify-center space-x-2 py-2 px-4 bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-600 transition-colors text-sm font-medium"
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <HiCode size={16} />
                       <span>Code</span>
@@ -227,6 +233,8 @@ const Projects = () => {
                       className="flex-1 flex items-center justify-center space-x-2 py-2 px-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white rounded-lg hover:shadow-lg transition-all text-sm font-medium"
                       whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
+                      target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <HiExternalLink size={16} />
                       <span>Demo</span>
