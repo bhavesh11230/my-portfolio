@@ -110,7 +110,7 @@ const About = () => {
                   transition={{ duration: 0.3 }}
                 >
                   <img
-                    src="/ProfileImg/Profile.jpg"
+                    src="\ProfileImg\Profile.jpg"
                     // src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=600"
                     alt="Bhavesh"
                     className="w-full h-full object-cover rounded-full p-2"
