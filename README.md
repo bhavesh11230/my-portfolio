@@ -16,10 +16,10 @@ Welcome to my personal developer portfolio built using **React.js**, **Tailwind 
 - **Tailwind CSS** – Utility-first responsive styling
 - **Framer Motion** – Smooth animation and transitions
 - **React Icons** – Clean and minimal icons
-- **GitHub Pages / Netlify** – (optional) for deployment
+- **GitHub Pages / Vercel** – (optional) for deployment
 
 ## 🧑‍💻 Sections Included
 
 - **Home/About** – Brief introduction
 - **Projects** – Featured projects with tech stacks
-- **Contact (Optional)** – Email/social profile links
+- **Contact ** – Email/social profile links
