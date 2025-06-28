@@ -1,4 +1,4 @@
-# 💼 Developer Portfolio
+# 💼 My Portfolio
 
 Welcome to my personal developer portfolio built using **React.js**, **Tailwind CSS**, and **Framer Motion**. This project showcases some of the best work I've done, including full-stack web applications, backend APIs, and UI dashboards.
 
