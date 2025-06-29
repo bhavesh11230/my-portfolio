@@ -57,6 +57,7 @@ const Projects = () => {
       demo: "#",
       featured: true
     },
+    // sample project for frontend
     // {
     //   title: "Mobile App Backend",
     //   description: "Scalable backend infrastructure for a mobile application with real-time messaging and push notifications.",
