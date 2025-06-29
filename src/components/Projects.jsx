@@ -10,7 +10,7 @@ const Projects = () => {
     {
       title: "Fuel Indeed",
       description: "Fuel booking system with real-time availability and admin control. Users can book fuel, view history. Admins can manage bookings and view analytics.",
-      image: "/ProfileImg/Fuel.jpg",
+      image: "/profileimg/Fuel.jpg",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "Tailwind CSS"],
       category: "Full Stack",
       github: "https://github.com/bhavesh11230/Fuel_Indeed-Fuel_Booking_Web_Application.git",
@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "InvenTrack",
       description: "Spring-based tool for inventory handling with CRUD operations support.",
-      image: "/ProfileImg/Inventory.jpeg",
+      image: "/profileimg/Inventory.jpeg",
       technologies: ["Java", "Spring", "JSP", "Servlets", "MySQL", "JavaScript", "HTML", "CSS"],
       category: "Full Stack",
       github: "https://github.com/bhavesh11230/Inventory_Management_System.git",
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "QuickBank ",
       description: "Banking app with customer portal, fund transfers, and account management. Includes admin dashboard for user management and transaction history.",
-      image: "/ProfileImg/Bank.webp",
+      image: "/profileimg/Bank.webp",
       technologies: ["Java", "JDBC", "JSP", "Servlets", "MySQL"],
       category: "Full Stack",
       github: "https://github.com/bhavesh11230/Banking_Web_Application.git",
@@ -40,7 +40,7 @@ const Projects = () => {
     {
       title: "Practical Manager",
       description: "Role-based backend for managing users, subjects, and practicals securely.",
-      image: "/ProfileImg/Practical.webp",
+      image: "/profileimg/Practical.webp",
       technologies: ["Node.js", "Express", "MongoDB", "JWT", "RBAC", "REST API"],
       category: "Backend",
       github: "https://github.com/bhavesh11230/Practical_Management_System.git",
@@ -50,7 +50,7 @@ const Projects = () => {
     {
       title: "T&P Review",
       description: "Students share placement reviews; admins moderate via role-based panel.",
-      image: "/ProfileImg/Review.webp",
+      image: "/profileimg/Review.webp",
       technologies: ["Node.js", "Express", "MongoDB", "JWT", "RBAC", "REST API"],
       category: "Backend",
       github: "https://github.com/bhavesh11230/T_and_P_ReviewSystem.git",
