@@ -67,7 +67,7 @@ const Hero = () => {
                 Bhavesh Rajput
               </motion.span>
             </motion.h1>
-            
+
             <motion.p
               className="text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8"
               initial={{ opacity: 0, y: 20 }}
@@ -95,15 +95,17 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.8 }}
           >
-            <motion.button
+            <motion.a
+              href="/profileimg/Bhavesh%20Rajput%20Web%20Developer.pdf"
+              download="Bhavesh_Rajput_Resume.pdf"
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold flex items-center space-x-2 hover:shadow-lg transition-all duration-300"
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
             >
               <HiDownload size={20} />
               <span>Download Resume</span>
-            </motion.button>
-            
+            </motion.a>
+
             <motion.button
               onClick={scrollToProjects}
               className="border-2 border-blue-600 text-blue-600 dark:text-blue-400 dark:border-blue-400 px-8 py-3 rounded-full font-semibold flex items-center space-x-2 hover:bg-blue-600 hover:text-white dark:hover:bg-blue-400 dark:hover:text-gray-900 transition-all duration-300"
