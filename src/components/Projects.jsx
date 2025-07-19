@@ -20,7 +20,7 @@ const Projects = () => {
     {
       title: "InvenTrack",
       description: "Spring-based tool for inventory handling with CRUD operations support.",
-      image: "/profileimg/Inventory.jpeg",
+      image: "/inventory.jpeg",
       technologies: ["Java", "Spring", "JSP", "Servlets", "MySQL", "JavaScript", "HTML", "CSS"],
       category: "Full Stack",
       github: "https://github.com/bhavesh11230/Inventory_Management_System.git",
@@ -30,7 +30,7 @@ const Projects = () => {
     {
       title: "QuickBank ",
       description: "Banking app with customer portal, fund transfers, and account management. Includes admin dashboard for user management and transaction history.",
-      image: "/profileimg/Bank.webp",
+      image: "/bank.webp",
       technologies: ["Java", "JDBC", "JSP", "Servlets", "MySQL"],
       category: "Full Stack",
       github: "https://github.com/bhavesh11230/Banking_Web_Application.git",
@@ -40,7 +40,7 @@ const Projects = () => {
     {
       title: "Practical Manager",
       description: "Role-based backend for managing users, subjects, and practicals securely.",
-      image: "/profileimg/Practical.webp",
+      image: "/practical.webp",
       technologies: ["Node.js", "Express", "MongoDB", "JWT", "RBAC", "REST API"],
       category: "Backend",
       github: "https://github.com/bhavesh11230/Practical_Management_System.git",
@@ -50,7 +50,7 @@ const Projects = () => {
     {
       title: "T&P Review",
       description: "Students share placement reviews; admins moderate via role-based panel.",
-      image: "/profileimg/Review.webp",
+      image: "/review.webp",
       technologies: ["Node.js", "Express", "MongoDB", "JWT", "RBAC", "REST API"],
       category: "Backend",
       github: "https://github.com/bhavesh11230/T_and_P_ReviewSystem.git",
