@@ -8,6 +8,36 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "IJFES",
+      description: "A digital platform for the International Journal of Frontiers of Engineering and Science (IJFES), enabling research paper submissions, editorial management, and easy access to interdisciplinary engineering and science publications.",
+      image:"/IJFES.png",
+      technologies: ["MongoDB", "Express.js", "React", "Node.js"],
+      category: "Full Stack",
+      github: "https://github.com/patilchaitali27/Journal-of-Interdisciplinary-Research-and-Innovations.git",
+      demo: "https://journal-of-interdisciplinary-resear.vercel.app/",
+      featured: true
+    },
+    {
+      title: "Kartar Group Project",
+      description: "A business website showcasing company products and enabling admin management of product categories and details",
+      image:"/Kartar.png",
+      technologies: ["MongoDB", "Express.js", "React", "Node.js", "Typescript"],
+      category: "Full Stack",
+      github: "https://github.com/bhavesh11230/thekartargroup-frontend.git",
+      demo: "https://www.thekartargroup.in/",
+      featured: true
+    },
+    {
+      title: "Akatsuki LMS",
+      description: "A Learning Management System (LMS) is a digital platform that enables the delivery, tracking, and management of educational courses and training programs. It provides instructors with tools to create content, assess students, and monitor progress, while giving learners a centralized space to access materials and complete activities.",
+      image:"/LMS.png",
+      technologies: ["MongoDB", "Express.js", "React", "Node.js", "Typescript"],
+      category: "Full Stack",
+      github: "https://github.com/Bhumikapatil22/Akatsukis-LMS.git",
+      demo: "https://akatsukis-lms.vercel.app/",
+      featured: true
+    },
+    {
       title: "Fuel Indeed",
       description: "Fuel booking system with real-time availability and admin control. Users can book fuel, view history. Admins can manage bookings and view analytics.",
       image:"/fuel.jpg",

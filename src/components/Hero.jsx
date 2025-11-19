@@ -96,7 +96,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.8 }}
           >
             <motion.a
-              href="https://drive.google.com/file/d/18NsTgaPPU78YVC7UzzFRGOVRxIPeMZu0/view?usp=sharing"
+              href="https://drive.google.com/file/d/1PF5MIG1Vf_uapT3PUrhBF8-OLSksM-Ro/view?usp=drive_link"
               download="Bhavesh_Rajput_Resume.pdf"
               className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-8 py-3 rounded-full font-semibold flex items-center space-x-2 hover:shadow-lg transition-all duration-300"
               whileHover={{ scale: 1.05, y: -2 }}
